@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('register','UserController@register');
+Route::post('register2','UserController@register2');
 Route::post('login','UserController@login');
 Route::get('profile','UserController@AuthenticatedUser');
 
